@@ -1,12 +1,12 @@
 module Config where
 
-import           Data.Text
+import Data.Text
 
 data Config = Config
-    { slackApiKey  :: String
-    , googleApiKey :: Text
-    , slackChannel :: String
-    }
+  { slackApiKey  :: String
+  , googleApiKey :: Text
+  , slackChannel :: String
+  }
 
 config =
     Config
